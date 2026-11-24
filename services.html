@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en" class="is-loading">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Services — Sable &amp; Chrome</title>
+<meta name="description" content="Paint correction and ceramic coating, mechanical repair, ceramic window tint, and mobile dispatch across the Portland metro.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' fill='%230F0F11'/%3E%3Cline x1='8' y1='32' x2='32' y2='8' stroke='%23C2703D' stroke-width='2.4'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+
+<div class="preload">
+  <svg class="preload__mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+    <rect x=".8" y=".8" width="38.4" height="38.4" stroke="currentColor" stroke-width="1.2"/>
+    <line x1="8" y1="32" x2="32" y2="8" stroke="currentColor" stroke-width="1.2"/>
+    <text x="9" y="18" font-family="Instrument Serif, serif" font-size="14" fill="currentColor">S</text>
+    <text x="21" y="33" font-family="Instrument Serif, serif" font-size="14" fill="currentColor">C</text>
+  </svg>
+  <div class="preload__num">000</div>
+  <div class="preload__bar"></div>
+</div>
+
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="nav__logo" href="index.html" aria-label="Sable and Chrome, home">
+      <svg class="nav__mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+        <rect x=".8" y=".8" width="38.4" height="38.4" stroke="currentColor" stroke-width="1.2"/>
+        <line x1="8" y1="32" x2="32" y2="8" stroke="currentColor" stroke-width="1.2"/>
+        <text x="9" y="18" font-family="Instrument Serif, serif" font-size="14" fill="currentColor">S</text>
+        <text x="21" y="33" font-family="Instrument Serif, serif" font-size="14" fill="currentColor">C</text>
+      </svg>
+      <span class="nav__wordmark">Sable &amp; Chrome</span>
+    </a>
+    <nav class="nav__links" aria-label="Primary">
+      <a class="link-underline" href="index.html">Home</a>
+      <a class="link-underline" href="services.html" aria-current="page">Services</a>
+      <a class="link-underline" href="work.html">Work</a>
+      <a class="link-underline" href="contact.html">Contact</a>
+    </nav>
+    <a class="btn btn--fill nav__cta" href="contact.html" data-magnetic="0.35">
+      Book a slot
+      <span class="arrow" aria-hidden="true">
+        <svg viewBox="0 0 24 12" fill="none"><path d="M0 6h21M16.5 1l5 5-5 5" stroke="currentColor" stroke-width="1.3"/></svg>
+        <svg viewBox="0 0 24 12" fill="none"><path d="M0 6h21M16.5 1l5 5-5 5" stroke="currentColor" stroke-width="1.3"/></svg>
+      </span>
+    </a>
+    <button class="nav__burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="navmenu"><span></span></button>
+  </div>
+</header>
+
+<div class="navmenu" id="navmenu">
+  <a href="index.html">Home</a>
+  <a href="services.html">Services</a>
+  <a href="work.html">Work</a>
+  <a href="contact.html">Contact</a>
+  <div class="navmenu__foot">
+    Bay 14 — Ironside Works, Portland, OR<br>
+    (503) 555-0147
+  </div>
+</div>
+
+<main>
+
+  <!-- Page hero -->
+  <section class="phero">
+    <div class="phero__bg">
+      <img data-parallax="0.16" src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1800&q=80" alt="">
+    </div>
+    <div class="wrap phero__inner">
+      <h1 class="display display--hero" data-mask data-hero>Four bays. One standard.</h1>
+      <div class="phero__row">
+        <p class="lede muted" data-reveal>Every discipline below runs out of the same building, with the same intake process and the same lead technician seeing your car from first photograph to handover.</p>
+        <p class="mono muted" data-reveal>04 services</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Intro strip -->
+  <section class="section section--bone">
+    <div class="wrap shead" style="padding-bottom:0">
+      <h2 class="display display--h2" data-mask>Book one bay, or hand us the keys.</h2>
+      <div>
+        <p class="muted" data-reveal>Most cars come in for one thing and leave having had three. We quote each discipline separately so you can see exactly what you are paying for, and decline any of it without a conversation.</p>
+        <dl class="split__stats" style="margin-top:2rem" data-stagger>
+          <div data-reveal><dt>25 mi</dt><dd>Mobile dispatch radius from the shop</dd></div>
+          <div data-reveal><dt>48h</dt><dd>Median turnaround on mechanical work</dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="section section--ink">
+    <div class="wrap svc">
+
+      <aside class="svc__index">
+        <ul>
+          <li class="is-active"><a href="#paint"><span class="mono">01</span> <span>Paint &amp; detail</span></a></li>
+          <li><a href="#mechanical"><span class="mono">02</span> <span>Mechanical</span></a></li>
+          <li><a href="#tint"><span class="mono">03</span> <span>Glass &amp; tint</span></a></li>
+          <li><a href="#mobile"><span class="mono">04</span> <span>Mobile dispatch</span></a></li>
+        </ul>
+      </aside>
+
+      <div>
+
+        <!-- 01 -->
+        <article class="svcpanel" id="paint">
+          <div class="svcpanel__head">
+            <div>
+              <p class="svcpanel__n">01</p>
+              <h2 class="display display--h2" data-mask>Paint &amp; detail</h2>
+            </div>
+            <p class="muted" data-reveal>Correction is measurement, not polish. We record paint depth on every panel before a pad touches the car, and again when it comes off, so you can see what was removed rather than take our word for it.</p>
+          </div>
+
+          <figure class="svcpanel__media" data-reveal>
+            <span class="svcpanel__frame"><img data-scale src="https://images.unsplash.com/photo-1708805282695-ef186db20192?auto=format&fit=crop&w=1400&q=80" alt="A detailer machine-polishing the flank of a black car"></span>
+            <span class="svcpanel__over">
+              <img src="https://images.unsplash.com/photo-1620584898989-d39f7f9ed1b7?auto=format&fit=crop&w=600&q=80" alt="A rotary polisher held above a glossy black panel">
+            </span>
+          </figure>
+
+          <div class="svcpanel__body">
+            <dl class="speclist" data-stagger>
+              <div data-reveal><dt class="mono">Correction</dt><dd>Up to three machine stages, depth logged before and after.</dd></div>
+              <div data-reveal><dt class="mono">Coating</dt><dd>9H ceramic, nine-year rating, two-week cure window.</dd></div>
+              <div data-reveal><dt class="mono">Interior</dt><dd>Steam extraction, leather re-conditioning, ozone treatment.</dd></div>
+            </dl>
+            <div data-reveal>
+              <p class="prose muted">A full correction takes three to five days because the coating has to cure under controlled humidity. We will not rush that part, and we will not book your collection before it is ready.</p>
+              <p class="display display--h3" style="margin-top:1.6rem">From $890</p>
+              <a class="btn btn--fill" href="contact.html" style="margin-top:1.4rem" data-magnetic="0.3">
+                Book paint &amp; detail
+                <span class="arrow" aria-hidden="true">
+                  <svg viewBox="0 0 24 12" fill="none"><path d="M0 6h21M16.5 1l5 5-5 5" stroke="currentColor" stroke-width="1.3"/></svg>
+                  <svg viewBox="0 0 24 12" fill="none"><path d="M0 6h21M16.5 1l5 5-5 5" stroke="currentColor" stroke-width="1.3"/></svg>
+                </span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 02 -->
+        <article class="svcpanel" id="mechanical">
+          <div class="svcpanel__head">
+            <div>
+              <p class="svcpanel__n">02</p>
+              <h2 class="display display--h2" data-mask>Mechanical</h2>
+            </div>
+            <p class="muted" data-reveal>Factory-level diagnostics for German and Japanese marques, scheduled servicing, and the suspension and brake work that most detail shops send down the road.</p>
+          </div>
+
+          <figure class="svcpanel__media" data-reveal>
+            <span class="svcpanel__frame"><img data-scale src="https://images.unsplash.com/photo-1625047509168-a7026f36de04?auto=format&fit=crop&w=1400&q=80" alt="A mechanic working over an open engine bay in a service workshop"></span>
+            <span class="svcpanel__over">
+              <img src="https://images.unsplash.com/photo-1615906655593-ad0386982a0f?auto=format&fit=crop&w=600&q=80" alt="A technician in dark overalls reaching into an engine bay">
+            </span>
+          </figure>
+
+          <div class="svcpanel__body">
+            <dl class="speclist" data-stagger>
+              <div data-reveal><dt class="mono">Diagnostics</dt><dd>Manufacturer scan tools, not a generic code reader.</dd></div>
+              <div data-reveal><dt class="mono">Servicing</dt><dd>Oil, filters and fluids to the manufacturer schedule.</dd></div>
+              <div data-reveal><dt class="mono">Brakes &amp; suspension</dt><dd>Pads, discs, coilovers, geometry set on a Hunter rack.</dd></div>
+            </dl>
+            <div data-reveal>
+              <p class="prose muted">Torque figures are logged against the manufacturer spec and go into the handover sheet. If we find something that was not on the original scope, work stops and you get a call before the next hour is billed.</p>
+              <p class="display display--h3" style="margin-top:1.6rem">From $140</p>
+              <a class="btn btn--fill" href="contact.html" style="margin-top:1.4rem" data-magnetic="0.3">
+                Book mechanical
+                <span class="arrow" aria-hidden="true">
+                  <svg viewBox="0 0 24 12" fill="none"><path d="M0 6h21M16.5 1l5 5-5 5" stroke="currentColor" stroke-width="1.3"/></svg>
+                  <svg viewBox="0 0 24 12" fill="none"><path d="M0 6h21M16.5 1l5 5-5 5" stroke="currentColor" stroke-width="1.3"/></svg>
+                </span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 03 -->
+        <article class="svcpanel" id="tint">
+          <div class="svcpanel__head">
+            <div>
+              <p class="svcpanel__n">03</p>
+              <h2 class="display display--h2" data-mask>Glass &amp; tint</h2>
+            </div>
+            <p class="muted" data-reveal>Multi-layer ceramic film, plotted from a pattern cut to your exact model. No metal in the film, so nothing interferes with your keys, your phone or your radio.</p>
+          </div>
+
+          <figure class="svcpanel__media" data-reveal>
+            <span class="svcpanel__frame"><img data-scale src="https://images.unsplash.com/photo-1690022676526-2762ac826843?auto=format&fit=crop&w=1400&q=80" alt="Tinted quarter glass on a sports car reflecting palm trees at dusk"></span>
+            <span class="svcpanel__over">
+              <img src="https://images.unsplash.com/photo-1663384609181-c585d45de9a8?auto=format&fit=crop&w=600&q=80" alt="The view out through a tinted car door window">
+            </span>
+          </figure>
+
+          <div class="svcpanel__body">
+            <dl class="speclist" data-stagger>
+              <div data-reveal><dt class="mono">Rejection</dt><dd>96% infrared, 99% ultraviolet, at every shade.</dd></div>
+              <div data-reveal><dt class="mono">Cut</dt><dd>Plotter-cut patterns. No blade goes near your glass.</dd></div>
+              <div data-reveal><dt class="mono">Warranty</dt><dd>Lifetime against purpling, bubbling and delamination.</dd></div>
+            </dl>
+            <div data-reveal>
+              <p class="prose muted">Oregon allows 35% light transmission on front side windows and any darkness behind the driver. We will tell you what is legal before we quote, and we will not fit anything that is not.</p>
+              <p class="display display--h3" style="margin-top:1.6rem">From $420</p>
+              <a class="btn btn--fill" href="contact.html" style="margin-top:1.4rem" data-magnetic="0.3">
+                Book glass &amp; tint
+                <span class="arrow" aria-hidden="true">
+                  <svg viewBox="0 0 24 12" fill="none"><path d="M0 6h21M16.5 1l5 5-5 5" stroke="currentColor" stroke-width="1.3"/></svg>
+                  <svg viewBox="0 0 24 12" fill="none"><path d="M0 6h21M16.5 1l5 5-5 5" stroke="currentColor" stroke-width="1.3"/></svg>
+                </span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+        <!-- 04 -->
+        <article class="svcpanel" id="mobile">
+          <div class="svcpanel__head">
+            <div>
+              <p class="svcpanel__n">04</p>
+              <h2 class="display display--h2" data-mask>Mobile dispatch</h2>
+            </div>
+            <p class="muted" data-reveal>Two vans, stocked to do most of what bay two does, parked on your driveway instead of ours. Booked before eleven, we are usually with you the same day.</p>
+          </div>
+
+          <figure class="svcpanel__media" data-reveal>
+            <span class="svcpanel__frame"><img data-scale src="https://images.unsplash.com/photo-1759477444242-46d92681a8e1?auto=format&fit=crop&w=1400&q=80" alt="A spare wheel and tool kit stowed in an open car trunk"></span>
+            <span class="svcpanel__over">
+              <img src="https://images.unsplash.com/photo-1611838608826-4c32a6160d90?auto=format&fit=crop&w=600&q=80" alt="Close view of an alloy wheel and brake caliper">
+            </span>
+          </figure>
+
+          <div class="svcpanel__body">
+            <dl class="speclist" data-stagger>
+              <div data-reveal><dt class="mono">Coverage</dt><dd>25 miles of the shop, Tuesday through Saturday.</dd></div>
+              <div data-reveal><dt class="mono">Onboard</dt><dd>Diagnostics, servicing, brakes, batteries, fluids.</dd></div>
+              <div data-reveal><dt class="mono">Stays in the bays</dt><dd>Correction, coating and tint. They need controlled air.</dd></div>
+            </dl>
+            <div data-reveal>
+              <p class="prose muted">The van carries the same scan tools as the shop, so a diagnosis on your driveway is the same diagnosis you would get here. If the job turns out to need a lift, we tow it in and credit the call-out.</p>
+              <p class="display display--h3" style="margin-top:1.6rem">From $180</p>
+              <a class="btn btn--fill" href="contact.html" style="margin-top:1.4rem" data-magnetic="0.3">
+                Request a dispatch
+                <span class="arrow" aria-hidden="true">
+                  <svg viewBox="0 0 24 12" fill="none"><path d="M0 6h21M16.5 1l5 5-5 5" stroke="currentColor" stroke-width="1.3"/></svg>
+                  <svg viewBox="0 0 24 12" fill="none"><path d="M0 6h21M16.5 1l5 5-5 5" stroke="currentColor" stroke-width="1.3"/></svg>
+                </span>
+              </a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Add-ons -->
+  <section class="section section--bone">
+    <div class="wrap">
+      <div class="shead">
+        <h2 class="display display--h2" data-mask>Add to any booking.</h2>
+        <p class="muted" data-reveal>Priced as extras because most cars do not need them. Add them when you book, or after we send the intake photographs.</p>
+      </div>
+
+      <div class="addons" data-stagger>
+        <article class="addon" data-reveal>
+          <h3>Headlight restoration</h3>
+          <p>Wet-sanded, polished and sealed against the weather. Both units.</p>
+          <span class="price mono">$160</span>
+        </article>
+        <article class="addon" data-reveal>
+          <h3>Engine bay detail</h3>
+          <p>Degreased, dressed and re-finished without soaking the electronics.</p>
+          <span class="price mono">$190</span>
+        </article>
+        <article class="addon" data-reveal>
+          <h3>Wheels off, deep clean</h3>
+          <p>All four removed. Barrels, arches and calipers cleaned and sealed.</p>
+          <span class="price mono">$240</span>
+        </article>
+        <article class="addon" data-reveal>
+          <h3>Partial paint protection film</h3>
+          <p>Hood leading edge, mirrors and door cups. Wrapped, not cut on the car.</p>
+          <span class="price mono">$850</span>
+        </article>
+        <article class="addon" data-reveal>
+          <h3>Windshield ceramic</h3>
+          <p>Rain sheets off above 40 mph. Roughly a year per application.</p>
+          <span class="price mono">$120</span>
+        </article>
+        <article class="addon" data-reveal>
+          <h3>Odor &amp; ozone treatment</h3>
+          <p>For smoke, damp or anything the previous owner left behind.</p>
+          <span class="price mono">$95</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section cta">
+    <div class="cta__bg">
+      <img src="https://images.unsplash.com/photo-1626668893632-6f3a4466d22f?auto=format&fit=crop&w=1800&q=80" alt="">
+    </div>
+    <div class="wrap cta__inner">
+      <h2 class="display display--h2" data-mask>Not sure which bay you need?</h2>
+      <div class="cta__actions" data-reveal>
+        <a class="btn btn--fill" href="contact.html" data-magnetic="0.3">
+          Send us the car
+          <span class="arrow" aria-hidden="true">
+            <svg viewBox="0 0 24 12" fill="none"><path d="M0 6h21M16.5 1l5 5-5 5" stroke="currentColor" stroke-width="1.3"/></svg>
+            <svg viewBox="0 0 24 12" fill="none"><path d="M0 6h21M16.5 1l5 5-5 5" stroke="currentColor" stroke-width="1.3"/></svg>
+          </span>
+        </a>
+        <a class="btn" href="tel:+15035550147">Call (503) 555-0147</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__grid">
+      <div>
+        <svg class="foot__mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+          <rect x=".8" y=".8" width="38.4" height="38.4" stroke="currentColor" stroke-width="1.2"/>
+          <line x1="8" y1="32" x2="32" y2="8" stroke="currentColor" stroke-width="1.2"/>
+          <text x="9" y="18" font-family="Instrument Serif, serif" font-size="14" fill="currentColor">S</text>
+          <text x="21" y="33" font-family="Instrument Serif, serif" font-size="14" fill="currentColor">C</text>
+        </svg>
+        <p class="foot__name">Sable &amp; Chrome</p>
+        <p class="foot__tag">Detail. Repair. Tint. Dispatched.</p>
+      </div>
+      <div>
+        <h3>Services</h3>
+        <ul>
+          <li><a class="link-underline" href="services.html#paint">Paint &amp; detail</a></li>
+          <li><a class="link-underline" href="services.html#mechanical">Mechanical</a></li>
+          <li><a class="link-underline" href="services.html#tint">Glass &amp; tint</a></li>
+          <li><a class="link-underline" href="services.html#mobile">Mobile dispatch</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Shop</h3>
+        <ul>
+          <li>Bay 14 — Ironside Works</li>
+          <li>Portland, OR 97209</li>
+          <li>Tuesday to Saturday</li>
+          <li>08:00 — 18:00</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Reach us</h3>
+        <ul>
+          <li><a class="link-underline" href="tel:+15035550147">(503) 555-0147</a></li>
+          <li><a class="link-underline" href="mailto:studio@sableandchrome.com">studio@sableandchrome.com</a></li>
+          <li><a class="link-underline" href="contact.html">Book a slot</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot__bar mono">
+      <span>&copy; 2026 Sable &amp; Chrome</span>
+      <span>Photography via Unsplash</span>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
